@@ -35,7 +35,7 @@ function draw() {
   background(0);
   fill(255);
   if (getAudioContext().state !== 'running') {
-    text(getAudioContext().state, width / 2, height / 2);
+    text("Click to start", width / 2, height / 2);
   } else {
     let spectrum = fft.analyze();
 
