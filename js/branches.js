@@ -11,7 +11,7 @@ let sum = new Array(bands);
 sum.fill(0);
 function preload() {
   soundFormats('mp3', 'ogg');
-  sample = loadSound('/assets/Cello.mp3');
+  sample = loadSound('assets/Cello.mp3');
 }
 
 //----------------------------------------------------------------------------
